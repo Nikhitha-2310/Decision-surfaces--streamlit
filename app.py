@@ -12,15 +12,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 
-ushape=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\1.ushape.csv',header=None,names=['f1','f2','cv'])
-concentriccir1=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\2.concerticcir1.csv',header=None,names=['f1','f2','cv'])
-concentriccir2=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\3.concertriccir2.csv',header=None,names=['f1','f2','cv'])
-linearsep=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\4.linearsep.csv',header=None,names=['f1','f2','cv'])
-outlier=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\5.outlier.csv',header=None,names=['f1','f2','cv'])
-overlap=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\6.overlap.csv',header=None,names=['f1','f2','cv'])
-xor=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\7.xor.csv',header=None,names=['f1','f2','cv'])
-twospirals=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\8.twospirals.csv',header=None,names=['f1','f2','cv'])
-random=pd.read_csv(r'C:\Users\LENOVO\Decision_srufaces\Multiple CSV\9.random.csv',header=None,names=['f1','f2','cv'])
+ushape=pd.read_csv('1.ushape.csv',header=None,names=['f1','f2','cv'])
+concentriccir1=pd.read_csv('2.concerticcir1.csv',header=None,names=['f1','f2','cv'])
+concentriccir2=pd.read_csv('3.concertriccir2.csv',header=None,names=['f1','f2','cv'])
+linearsep=pd.read_csv('4.linearsep.csv',header=None,names=['f1','f2','cv'])
+outlier=pd.read_csv('5.outlier.csv',header=None,names=['f1','f2','cv'])
+overlap=pd.read_csv('6.overlap.csv',header=None,names=['f1','f2','cv'])
+xor=pd.read_csv('7.xor.csv',header=None,names=['f1','f2','cv'])
+twospirals=pd.read_csv('8.twospirals.csv',header=None,names=['f1','f2','cv'])
+random=pd.read_csv('9.random.csv',header=None,names=['f1','f2','cv'])
 
 
 st.title('Decision Surfaces')
